@@ -1,0 +1,135 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Times New Roman', Times, serif;
+}
+#box{
+    background-color: white;
+    width: 550px;
+    height: fit-content;
+    margin: 70px auto;
+    border-radius: 10px;
+    
+}
+.imgcontainer{
+    width: 480px;
+    height: 200px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+.imgcontainer img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+#heading{
+    color: #4A4643;
+    font-weight: 24px;
+    padding: 0px 40px;
+    margin: 5px;
+}
+.intro{
+    color: #4A4643;
+    font-size: 13px;
+    padding: 0px 40px;
+    
+}
+#prep{
+    margin: 0px 40px;
+    background-color: #FFF5FA;
+    border-radius: 10px;
+    padding: 5px;
+}
+.list ::marker{
+    color: #7B284F;  
+}
+.steps{
+    font-weight: bold;
+    padding-left: 10px;
+}
+#steps{
+    padding: 5px 0px;
+}
+
+.list{
+    margin: 15px;
+    color: #4A4643;
+}
+.header{
+    color: #7B284F; 
+    padding: 10px 20px 0px;
+    margin: 15px 10px 0px;
+}
+.heading{
+    color: #753f29;
+    margin-left: 40px;
+}
+.list2 ::marker{
+    color: #753f29; 
+}
+#ingredients{
+    text-align: 10px;
+}
+.list2 { 
+    margin: 0px 20px 0;
+    color: #4A4643;
+    /* padding-left: 50px; */
+}
+.list2 li{
+    text-indent: 5px;
+    padding: 5px;
+}
+.line{
+color: #484747;
+    margin: 30px 30px;
+    opacity: 0.2; 
+}
+#instructions{
+    color: #484747;
+    margin: 0px 15px 0px;
+}
+#instructions ::marker{
+    color: #753f29;
+    font-weight: bold;
+}
+
+.list3{
+    font-weight: bold;
+}
+.container{
+    display: flex;
+}
+.column, .column2{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 100px;
+    color: #484747;
+}
+.column2{
+    color: #7B284F;
+    font-weight: bold;
+}
+.table{
+    padding-bottom: 50px;
+}
+
+table{
+    border-collapse: collapse;  /*removes spacing between border */
+    width: 100%;  /*table spans full width*/
+    
+}
+table td{
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px 20px;
+}
+.measurement{
+    color: #753f29;
+    font-weight: bold;
+}
+
+
+
+
